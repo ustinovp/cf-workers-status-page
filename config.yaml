@@ -21,8 +21,8 @@ monitors:
     url: 'https://slotegrator.pro/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    #followRedirect: false # should fetch follow redirects, default=false
+    #linkable: false # allows the title to be a link, default=true
 
   - id: static-slotegrator-pro # unique identifier
     name: static.slotegrator.pro
@@ -30,14 +30,14 @@ monitors:
     url: 'https://static.slotegrator.pro/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true  
+    #followRedirect: false # should fetch follow redirects, default=false
+    #linkable: false # allows the title to be a link, default=true  
     
   - id: onlinegamblinglicense-org # unique identifier
     name: onlinegamblinglicense.org
-    description: 'Img storage for main website' # default=empty
+    description: 'Consulting commercial website' # default=empty
     url: 'https://onlinegamblinglicense.org/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    #followRedirect: false # should fetch follow redirects, default=false
+    #linkable: false # allows the title to be a link, default=true
