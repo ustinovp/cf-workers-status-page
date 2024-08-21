@@ -23,3 +23,13 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
+
+  - id: static-slotegrator-pro # unique identifier
+    name: static.slotegrator.pro
+    description: 'Img storage for main website' # default=empty
+    url: 'https://static.slotegrator.pro/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
